@@ -670,7 +670,7 @@ console.log({item});
           ],
 
           arrStyles: [
-            `{ color: 'yellow' }`
+            `Mudei Gente`
           ],
 
           children: [
