@@ -678,6 +678,7 @@ console.log({item});
 
           args,
         }}/>, 
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
@@ -691,6 +692,33 @@ console.log({item});
 
           arrStyles: [
             `{ color: 'blue' }`
+          ],
+
+          children: [
+            `Meu primeiro App com IA no Flaxboll`
+          ],
+
+          args,
+
+        }}/>],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"home",
+
+          styles:[`{ flex: 1, backgroundColor: 'white', padding: 20, justifyContent: 'flex-start' }`],
+
+          screenElements:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'orange' }`
           ],
 
           children: [
