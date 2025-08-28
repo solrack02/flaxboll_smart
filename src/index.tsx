@@ -19,7 +19,7 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = 'home';
+          const currRoute = 'home1';
 
           let args: any = [];
 
@@ -653,7 +653,7 @@ console.log({item});
         
 
         (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"home",
+          pathScreen:"home1",
 
           styles:[`{ flex: 1, backgroundColor: 'white', padding: 20, justifyContent: 'flex-start' }`],
 
@@ -663,7 +663,7 @@ console.log({item});
           ],
 
           arrStyles: [
-            `{ color: 'blue' }`
+            `{ color: 'red' }`
           ],
 
           children: [
