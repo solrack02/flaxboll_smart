@@ -654,15 +654,7 @@ console.log({item});
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
 
-          styles:[
-              {
-                backgroundColor: '#101',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100%',
-                width: '100%',
-              }
-              ],
+          styles:[`[object Object]`],
 
           screenElements:[(...args:any) => <Elements.Text pass={{
           arrProps: [
@@ -670,7 +662,8 @@ console.log({item});
           ],
 
           arrStyles: [
-            `{ color: 'yellow' }`
+            
+        `{ color: 'yellow' }`, `[object Object]`
           ],
 
           children: [
