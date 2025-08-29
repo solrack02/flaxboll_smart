@@ -650,6 +650,7 @@ console.log({item});
 
           args,
         }}/>, 
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
@@ -699,6 +700,33 @@ console.log({item});
 
           children: [
             `Item3`
+          ],
+
+          args,
+
+        }}/>],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"home",
+
+          styles:[`{ backgroundColor: '#333' }`],
+
+          screenElements:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'lightgreen' }`
+          ],
+
+          children: [
+            `Bem-vindo`
           ],
 
           args,
