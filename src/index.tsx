@@ -27,7 +27,7 @@
             
 
         (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"home",
+          pathScreen:"home2",
 
           styles:[
               {
