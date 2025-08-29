@@ -25,10 +25,9 @@
 
           const screens = [
             
-        
 
         (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"home2",
+          pathScreen:"home",
 
           styles:[
               {
@@ -644,33 +643,6 @@ console.log({item});
           }}/>
         ],
             args,
-        }}/>],
-
-          functions:[()=>{}],
-
-          args,
-        }}/>, 
-
-        (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"home1",
-
-          styles:[`{ flex: 1, backgroundColor: 'white', padding: 20, justifyContent: 'flex-start' }`],
-
-          screenElements:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{ color: 'red' }`
-          ],
-
-          children: [
-            `Meu primeiro App com IA no Flaxboll`
-          ],
-
-          args,
-
         }}/>],
 
           functions:[()=>{}],
