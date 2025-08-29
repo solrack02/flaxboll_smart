@@ -662,7 +662,7 @@ console.log({item});
           ],
 
           arrStyles: [
-            `{ color: 'blue' }`
+            `{ color: 'green' }`
           ],
 
           children: [
