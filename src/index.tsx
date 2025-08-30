@@ -654,7 +654,7 @@ console.log({item});
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
 
-          styles:[`{ flex: 1, backgroundColor: 'white', justifyContent: 'flex-start' }`],
+          styles:[`{ backgroundColor: '#333', flex: 1, justifyContent: 'center', alignItems: 'center' }`],
 
           screenElements:[
         (...args:any) => <Elements.Text pass={{
