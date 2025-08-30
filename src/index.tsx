@@ -670,7 +670,7 @@ console.log({item});
           ],
 
           arrStyles: [
-            `{ color: 'red', fontSize: 20 }`
+            `{ color: 'white' }`
           ],
 
           children: [
