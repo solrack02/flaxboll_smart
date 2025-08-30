@@ -25,6 +25,7 @@
 
           const screens = [
             
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home2",
@@ -644,6 +645,55 @@ console.log({item});
         ],
             args,
         }}/>],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"home",
+
+          styles:[`{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'pink' }`],
+
+          screenElements:[
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[`{ width: 150, height: 30, backgroundColor: 'black' }`],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>{}]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'white' }`
+          ],
+
+          children: [
+            `Salvar`
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
 
           functions:[()=>{}],
 
