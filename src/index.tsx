@@ -654,7 +654,15 @@ console.log({item});
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
 
-          styles:[`{ flex: 1, backgroundColor: 'white', padding: 20, justifyContent: 'flex-start' }`],
+          styles:[
+              {
+                backgroundColor: '#101',
+                justifyContent: 'center',
+                alignItems: 'center',
+                height: '100%',
+                width: '100%',
+              }
+              ],
 
           screenElements:[(...args:any) => <Elements.Text pass={{
           arrProps: [
@@ -662,11 +670,11 @@ console.log({item});
           ],
 
           arrStyles: [
-            `{ color: 'red' }`
+            `{ color: 'red', fontSize: 20 }`
           ],
 
           children: [
-            `Bem-vindo`
+            `Bem Vindo Amigo`
           ],
 
           args,
