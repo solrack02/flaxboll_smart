@@ -656,23 +656,7 @@ console.log({item});
 
           styles:[`{ backgroundColor: 'white', flex: 1, padding: 20, justifyContent: 'flex-start' }`],
 
-          screenElements:[
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{ color: 'blue' }`
-          ],
-
-          children: [
-            `Meu primeiro App com IA no Flaxboll`
-          ],
-
-          args,
-
-        }}/>, (...args:any) => <Elements.Text pass={{
+          screenElements:[(...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
