@@ -688,7 +688,8 @@ console.log({item});
 
           args,
 
-        }}/>, (...args:any) => <Elements.Text pass={{
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -703,7 +704,77 @@ console.log({item});
 
           args,
 
-        }}/>],
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'green', marginBottom: 20 }`
+          ],
+
+          children: [
+            `Bem vindo ao Flaxboll`
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'white', marginBottom: 20 }`
+          ],
+
+          children: [
+            `Ao Flaxboll`
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'blue', marginBottom: 20 }`
+          ],
+
+          children: [
+            `Crie suas Telas a vontade`
+          ],
+
+          args,
+
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:['{}'],
+
+            styles:[
+              {
+                backgroundColor: 'white',
+                justifyContent: 'center',
+                minHeight: 22,
+                width: "100%",
+              }
+              ],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>{}]
+ , trigger: 'on press'
+}})],            childrenItems:[() =><></>],
+
+            args,
+          }}/>
+        ],
 
           functions:[()=>{}],
 
