@@ -656,22 +656,20 @@ console.log({item});
 
           styles:[`{ backgroundColor: 'white', flex: 1, padding: 20, justifyContent: 'flex-start' }`],
 
-          screenElements:[(...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
+          screenElements:[() => {
+                  const textStyle = {
+                    fontSize: 20,
+                    color: '#fff2',
+                    textAlign:'center',
+                    maxWidth: 200,
+                    // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!
+                  };
 
-          arrStyles: [
-            `{ color: 'blue' }`
-          ],
-
-          children: [
-            `Meu primeiro App com IA no Flaxboll`
-          ],
-
-          args,
-
-        }}/>],
+                  return (
+                    <RN.Text style={textStyle}>
+                      {'Adicione Elementos nessa tela!'}
+                    </RN.Text>);
+                }],
 
           functions:[()=>{}],
 
