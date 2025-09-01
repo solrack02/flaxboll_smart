@@ -650,6 +650,7 @@ console.log({item});
 
           args,
         }}/>, 
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home",
@@ -699,6 +700,65 @@ console.log({item});
 
           children: [
             `Item3`
+          ],
+
+          args,
+
+        }}/>],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"home",
+
+          styles:[`{ flex: 1, backgroundColor: 'gold', justifyContent: 'center', alignItems: 'center' }`],
+
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'green', marginVertical: 20 }`
+          ],
+
+          children: [
+            `Bem vindo ao Flaxboll`
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'purple', marginVertical: 20 }`
+          ],
+
+          children: [
+            `Ao Flaxboll`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'blue', marginVertical: 20 }`
+          ],
+
+          children: [
+            `Crie suas Telas a vontade`
           ],
 
           args,
