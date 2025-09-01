@@ -694,7 +694,7 @@ console.log({item});
           ],
 
           arrStyles: [
-            `{ color: 'yellow', padding: 20 }`
+            `{ backgroundColor: '#808080', flex: 1 }`
           ],
 
           children: [
