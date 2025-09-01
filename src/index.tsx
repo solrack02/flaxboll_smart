@@ -25,6 +25,7 @@
 
           const screens = [
             
+        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home2",
@@ -643,6 +644,65 @@ console.log({item});
           }}/>
         ],
             args,
+        }}/>],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>, 
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"home",
+
+          styles:[`{ backgroundColor: '#333', padding: 20, justifyContent: 'flex-start' }`],
+
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'red', padding: 20 }`
+          ],
+
+          children: [
+            `Texto 1`
+          ],
+
+          args,
+
+        }}/>, 
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'blue', padding: 20 }`
+          ],
+
+          children: [
+            `Texto 2`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'yellow', padding: 20 }`
+          ],
+
+          children: [
+            `Texto 3`
+          ],
+
+          args,
+
         }}/>],
 
           functions:[()=>{}],
