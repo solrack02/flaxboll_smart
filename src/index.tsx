@@ -663,22 +663,6 @@ console.log({item});
           ],
 
           arrStyles: [
-            `{ color: 'blue', padding: 20 }`
-          ],
-
-          children: [
-            `Item1`
-          ],
-
-          args,
-
-        }}/>, 
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
             `{ color: 'red', padding: 20 }`
           ],
 
