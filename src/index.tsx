@@ -656,23 +656,7 @@ console.log({item});
 
           styles:[`{ backgroundColor: 'white', flex: 1, justifyContent: 'flex-start' }`],
 
-          screenElements:[
-        (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{ color: 'red', padding: 20 }`
-          ],
-
-          children: [
-            `Item2`
-          ],
-
-          args,
-
-        }}/>, (...args:any) => <Elements.Text pass={{
+          screenElements:[(...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
