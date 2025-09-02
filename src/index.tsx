@@ -672,8 +672,7 @@ console.log({item});
 
           args,
 
-        }}/>, 
-        (...args:any) => <Elements.Text pass={{
+        }}/>, (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -684,21 +683,6 @@ console.log({item});
 
           children: [
             `Item2`
-          ],
-
-          args,
-
-        }}/>, (...args:any) => <Elements.Text pass={{
-          arrProps: [
-            '{}'
-          ],
-
-          arrStyles: [
-            `{ color: 'purple', padding: 20 }`
-          ],
-
-          children: [
-            `Item3`
           ],
 
           args,
