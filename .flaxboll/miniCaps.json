@@ -1,1 +1,8 @@
-{}
+{
+  "xxxx": {
+  "capsID": "f6e8c3a9-1b0a-45c5-b35e-0d85aefa7826",
+  "description": "Conteúdo literal do texto Item2",
+  "label": "Valor do Texto Item2",
+  "seedID": "ccc_stringValue",
+  }
+}
