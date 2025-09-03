@@ -656,7 +656,8 @@ console.log({item});
 
           styles:[`{ backgroundColor: 'white', flex: 1 }`],
 
-          screenElements:[(...args:any) => <Elements.Text pass={{
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
           arrProps: [
             '{}'
           ],
@@ -667,6 +668,21 @@ console.log({item});
 
           children: [
             `Olá Morfos`
+          ],
+
+          args,
+
+        }}/>, (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            '{}'
+          ],
+
+          arrStyles: [
+            `{ color: 'red' }`
+          ],
+
+          children: [
+            `Olá Morfos 2`
           ],
 
           args,
