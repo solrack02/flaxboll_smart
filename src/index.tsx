@@ -25,7 +25,6 @@
 
           const screens = [
             
-        
 
         (...args: any) => <Elements.Screen3 pass={{
           pathScreen:"home2",
@@ -645,36 +644,6 @@ console.log({item});
         ],
             args,
         }}/>],
-
-          functions:[()=>{}],
-
-          args,
-        }}/>, 
-
-        (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"home",
-
-          styles:[`{ flex: 1, justifyContent: 'center', alignItems: 'center' }`],
-
-          screenElements:[
-
-    (...args:any) => <Elements.ImageBox pass={{
-      elementsProperties:[{}],
-
-      styles:[
-              {
-                height: "50px",
-                width: "80px",
-                backgroundColor: "#FDFDFD",
-                borderWidth: 2,
-                borderColor: "#EEE"
-              }
-              ],
-
-      URIvariablePath:[``],
-
-      args,
-    }}/>],
 
           functions:[()=>{}],
 
