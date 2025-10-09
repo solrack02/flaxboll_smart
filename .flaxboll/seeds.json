@@ -443,7 +443,7 @@
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptTxtDfValue": "\n{\nbackgroundColor: 'white',\njustifyContent: 'center',\nminHeight: 22,\nwidth: \"100%\",\n\n"
+              "capsIptTxtDfValue": "\n{\nbackgroundColor: 'white',\njustifyContent: 'center',\nminHeight: 22,\nwidth: \"100%\",\n\n}"
             }
           },
 
