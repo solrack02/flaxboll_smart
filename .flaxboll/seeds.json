@@ -718,7 +718,7 @@
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptTxtDfValue": ""
+              "capsIptTxtDfValue": "''"
             }
           },
           "ccc_flatList-2": {
@@ -2444,4 +2444,3 @@
     }
   }
 }
-
