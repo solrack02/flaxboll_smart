@@ -93,7 +93,7 @@ borderWidth: 2,
             {}
           ],
 
-          pData: '',
+          pData: all.lists.lt1,
 
           itemElements: [
             
