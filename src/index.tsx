@@ -116,11 +116,26 @@ minHeight: 22,
                 width: "100%",
 }
 ],    args,
-        }}/>, (...args:any) => <Elements.ScrollBar pass={{
+        }}/>, 
+        (...args:any) => <Elements.ScrollBar pass={{
             styles: [],
             arrProps: [],
             arrItems: [() => <></>],
             args,
+        }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
+          propsArray: [{}],
+
+          stylesArray: [{
+color: 'black',
+fontSize: 14,
+
+}],
+
+          path: [],
+
+          funcsArray: [() => {}],
+
+          args,
         }}/>],
 
             args,
