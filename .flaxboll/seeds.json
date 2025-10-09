@@ -412,39 +412,38 @@
         "capsCodeText": "\n\n          (...args:any) => <Elements.DynView pass={{\n            elementsProperties:[!#!0!#!],\n\n            styles:[!#!1!#!],\n\n            functions:[!#!2!#!],            childrenItems:[!#!3!#!],\n\n            args,\n          }}/>\n        ",
         "capsCodeInputs": {
           "ccc_dynView-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
             "capsIptCodeID": "ccc_dynView-0",
             "capsIptPosition": "0",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Propredades",
-                "en": "Properties"
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Propriedades",
+                "en": "Property"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "'{}'",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": ""
             }
           },
+
           "ccc_dynView-1": {
-            "capsIptCodeID": "ccc_dynView-1",
-            "capsIptPosition": "1",
+            "capsIptType": "text",
             "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptCodeID": "ccc_dynView-1",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Estilos",
                 "en": "Styles"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "\n              {\n                backgroundColor: 'white',\n                justifyContent: 'center',\n                minHeight: 22,\n                width: \"100%\",\n              }\n              ",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": "\n{\nbackgroundColor: 'white',\njustifyContent: 'center',\nminHeight: 22,\nwidth: \"100%\",\n\n"
             }
           },
 
