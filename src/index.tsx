@@ -88,12 +88,13 @@ borderWidth: 2,
 
           args,
 
-        }}/>, (...args:any) => <Elements.FlatList2 pass={{
+        }}/>, 
+        (...args:any) => <Elements.FlatList2 pass={{
           elementProperties: [
             {}
           ],
 
-          pData: all.lists.lt1,
+          pData: 'all.lists.lt1',
 
           itemElements: [
             
@@ -115,6 +116,11 @@ minHeight: 22,
                 width: "100%",
 }
 ],    args,
+        }}/>, (...args:any) => <Elements.ScrollBar pass={{
+            styles: [],
+            arrProps: [],
+            arrItems: [() => <></>],
+            args,
         }}/>],
 
             args,
