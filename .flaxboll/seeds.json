@@ -1134,7 +1134,7 @@
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptTxtDfValue": "black"
+              "capsIptTxtDfValue": "'black'"
             }
           }
         }
@@ -2444,4 +2444,3 @@
     }
   }
 }
-
