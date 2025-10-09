@@ -46,11 +46,10 @@
 
             styles:[
 {
-backgroundColor: 'white',
-justifyContent: 'center',
-minHeight: 22,
-width: "100%",
-
+	backgroundColor: 'white',
+	justifyContent: 'center',
+	minHeight: 40,
+	width: "100%",
 }],
 
             functions:[()=>{}],            childrenItems:[() =><></>],
