@@ -137,8 +137,7 @@ fontSize: 14,
           funcsArray: [() => {}],
 
           args,
-        }}/>, 
-        (...args:any) => <Elements.SvgView1 pass={{
+        }}/>, (...args:any) => <Elements.SvgView1 pass={{
       componentSvg: (Svg:any, SvgObj:any) => {
         const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;
         return (props:any) => (<Svg
@@ -168,11 +167,7 @@ fontSize: 14,
       preenchimento: ['black'],
 
       args,
-    }}/>, (...args:any) => <Elements.Loader pass={{
-            size: "small",
-            color: black,
-            args,
-        }}/>],
+    }}/>],
 
             args,
           }}/>
