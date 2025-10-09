@@ -329,21 +329,20 @@
             }
           },
           "ccc_screen-1": {
-            "capsIptCodeID": "ccc_screen-1",
-            "capsIptPosition": "2",
+            "capsIptType": "text",
             "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsTypesToAdd": ["string process"],
-              "capsIptCapsLabel": {
+            "capsIptCodeID": "ccc_screen-1",
+            "capsIptPosition": "1",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Estilos",
                 "en": "Styles"
               },
-              "capsIptCapsDescription": {
-                "pt-br": "Adicione os itens que desejar para modificar o estilo dessa Tela.",
-                "en": "Add items to change screen style."
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
               },
-              "capsIptCapsDfCode": "\n              {\n                backgroundColor: '#101',\n                justifyContent: 'center',\n                alignItems: 'center',\n                height: '100%',\n                width: '100%',\n              }\n              "
+              "capsIptTxtDfValue": "\n {\nbackgroundColor: '#101',\njustifyContent: 'center',\nalignItems: 'center',\nheight: '100%',\nwidth: '100%',\n}\n"
             }
           },
           "ccc_screen-2": {
@@ -366,7 +365,7 @@
           },
           "ccc_screen-3": {
             "capsIptCodeID": "ccc_screen-3",
-            "capsIptPosition": "1",
+            "capsIptPosition": "2",
             "capsIptRemoved": false,
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
@@ -425,7 +424,7 @@
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptTxtDfValue": ""
+              "capsIptTxtDfValue": "{}"
             }
           },
 
@@ -433,7 +432,7 @@
             "capsIptType": "text",
             "capsIptRemoved": false,
             "capsIptCodeID": "ccc_dynView-1",
-            "capsIptPosition": "0",
+            "capsIptPosition": "1",
             "capsIptTxtInfo": {
               "capsIptTxtLabel": {
                 "pt-br": "Estilos",
@@ -519,57 +518,54 @@
         "capsCodeText": "\n\n    (...args:any) => <Elements.ImageBox pass={{\n      elementsProperties:[!#!1!#!],\n\n      styles:[!#!2!#!],\n\n      URIvariablePath:[!#!3!#!],\n\n      args,\n    }}/>",
         "capsCodeInputs": {
           "ccc_image-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
             "capsIptCodeID": "ccc_image-0",
             "capsIptPosition": "0",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Propriedades",
                 "en": "Properties"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "{}",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": "{}"
             }
           },
           "ccc_image-1": {
-            "capsIptCodeID": "ccc_image-1",
-            "capsIptPosition": "1",
+            "capsIptType": "text",
             "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptCodeID": "ccc_image-1",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Estilos",
                 "en": "Styles"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "\n              {\n                height: \"50px\",\n                width: \"80px\",\n                backgroundColor: \"#FDFDFD\",\n                borderWidth: 2,\n                borderColor: \"#EEE\"\n              }\n              ",
-              "capsIptCapsTypesToAdd": ["free value"]
+              "capsIptTxtDfValue": "\n{\nheight: \"50px\",\nwidth: \"80px\",\nbackgroundColor: \"#FDFDFD\",\nborderWidth: 2,\n                borderColor: \"#EEE\"\n}\n"
             }
           },
           "ccc_image-2": {
-            "capsIptPosition": "2",
-            "capsIptCodeID": "ccc_image-2",
+            "capsIptType": "text",
             "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "caminho da variável URI",
-                "en": "URI variable path"
+            "capsIptCodeID": "ccc_image-2",
+            "capsIptPosition": "2",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "valor string",
+                "en": "string value"
               },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
+              "capsIptTxtDescription": {
+                "pt-br": "Caminho da Imagem",
+                "en": "Image Path"
               },
-              "capsIptCapsTypesToAdd": ["string process"],
-              "capsIptCapsDfCode": "\"https://images.unsplash.com/photo-1488831861984-179da3647265?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\""
+              "capsIptTxtDfValue": "\"https://images.unsplash.com/photo-1488831861984-179da3647265?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\""
             }
           }
         },
@@ -607,57 +603,54 @@
         "capsCodeText": "(...args:any) => <Elements.Text pass={{\n          arrProps: [\n            !#!Elements Properties!#!\n          ],\n\n          arrStyles: [\n            !#!Styles!#!\n          ],\n\n          children: [\n            !#!Text Value!#!\n          ],\n\n          args,\n\n        }}/>",
         "capsCodeInputs": {
           "ccc_text-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
             "capsIptCodeID": "ccc_text-0",
             "capsIptPosition": "0",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Propriedades",
                 "en": "Properties"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "'{}'",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": "{}"
             }
           },
           "ccc_text-1": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
             "capsIptCodeID": "ccc_text-1",
             "capsIptPosition": "1",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Estilos",
                 "en": "Styles"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "{ color: 'black', fontSize: 12, }",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": "{ color: 'black', fontSize: 12, }"
             }
           },
           "ccc_text-2": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
             "capsIptCodeID": "ccc_text-2",
             "capsIptPosition": "2",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Valor de Texto",
                 "en": "Text Value"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "\"Escreva...\"",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": "\"Escreva...\""
             }
           }
         },
@@ -695,39 +688,37 @@
         "capsCodeText": "(...args:any) => <Elements.FlatList2 pass={{\n          elementProperties: [\n            !#!Element Properties!#!\n          ],\n\n          pData: !#!Path Data!#!,\n\n          itemElements: [\n            !#!Item Elements!#!\n          ],\n\n      styles:[!#!3!#!],    args,\n        }}/>",
         "capsCodeInputs": {
           "ccc_flatList-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
             "capsIptCodeID": "ccc_flatList-0",
             "capsIptPosition": "0",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Propriedades",
                 "en": "Properties"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "{}",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": "{}"
             }
           },
           "ccc_flatList-1": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
             "capsIptCodeID": "ccc_flatList-1",
             "capsIptPosition": "2",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Dados",
                 "en": "Data"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "''",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": ""
             }
           },
           "ccc_flatList-2": {
@@ -749,21 +740,20 @@
             }
           },
           "ccc_flatList-3": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
             "capsIptCodeID": "ccc_flatList-3",
             "capsIptPosition": "1",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "Estilos",
                 "en": "Styles"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsDfCode": "\n              {\n                backgroundColor: 'white',\n                justifyContent: 'center',\n                minHeight: 22,\n                width: \"100%\",\n              }\n              ",
-              "capsIptCapsTypesToAdd": ["string process"]
+              "capsIptTxtDfValue": "\n{\nbackgroundColor: 'white',\njustifyContent: 'center',\nminHeight: 22,\n                width: \"100%\",\n}\n"
             }
           }
         },
@@ -783,6 +773,314 @@
         "nanoseconds": 764000000
       },
       "capsUserID": "xxx1"
+    }
+  },
+
+  "ccc_textInput": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "Campo",
+          "en": "TextInput"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Elemento de Tela", "TextInput Edit"],
+        "capsCodeText": "(...args:any) => <Elements.IptTxtEdit pass={{\n          propsArray: [!#!Properties!#!],\n\n          stylesArray: [!#!Styles!#!],\n\n          path: [!#!Edit Path!#!],\n\n          funcsArray: [!#!Functions!#!],\n\n          args,\n        }}/>",
+        "capsCodeInputs": {
+          "ccc_textInput-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_textInput-0",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Propriedades",
+                "en": "Properties"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": "{}"
+            }
+          },
+          "ccc_textInput-1": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_textInput-1",
+            "capsIptPosition": "1",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Estilos",
+                "en": "Styles"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": "{\ncolor: 'black',\nfontSize: 14,\n\n}"
+            }
+          },
+          "ccc_textInput-2": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_textInput-2",
+            "capsIptPosition": "2",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Caminho",
+                "en": "Path"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": ""
+            }
+          },
+          "ccc_textInput-3": {
+            "capsIptCodeID": "ccc_textInput-3",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Funções (onChangeText)",
+                "en": "Functions (onChangeText)"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "() => {}",
+              "capsIptCapsTypesToAdd": ["setVar", "setTimeout"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_textInput",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 764000000
+      },
+      "capsUserID": "xxx1"
+    }
+  },
+
+  "ccc_svgIcon": {
+    "capsType": "code",
+    "capsDB": {
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 763000000
+      },
+      "capsID": "ccc_svgIcon",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsCodeInfo": {
+      "1": {
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 763000000
+        },
+        "capsCodeVersionID": "1",
+        "capsLabel": {
+          "pt-br": "Ícone",
+          "en": "Icon"
+        },
+        "capsDescription": {
+          "pt-br": "Use um SVG como ícone",
+          "en": "Use a SVG as an Icon"
+        },
+        "capsCodeTypes": ["Elemento de Tela", "SVG Icon"],
+        "capsCodeText": "(...args:any) => <Elements.SvgView1 pass={{\n      componentSvg: (Svg:any, SvgObj:any) => {\n        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;\n        return (props:any) => (!#!1!#!)\n      },\n\n      svgOriginal: `\n        !#!2!#!\n      `,\n\n      altura: \"!#!3!#!\",\n\n      largura: \"!#!4!#!\",\n\n      preenchimento: [!#!5!#!],\n\n      args,\n    }}/>",
+        "capsCodeInputs": {
+          "ccc_svgIcon-0": {
+            "capsIptCodeID": "ccc_svgIcon-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "<Svg\n              xmlns=\"http://www.w3.org/2000/svg\"\n              width={20}\n              height={14}\n              viewBox=\"0 0 20 14\"\n              {...props}\n              >\n              <Path\n              fillRule=\"evenodd\"\n              d=\"M7.707.293a1 1 0 0 1 0 1.414L3.414 6H19a1 1 0 1 1 0 2H3.414l4.293 4.293a1 1 0 1 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0Z\"\n              clipRule=\"evenodd\"\n              {...props}\n              />\n              </Svg>",
+              "capsIptTxtLabel": {
+                "pt-br": "Svg como Componente",
+                "en": "Svg as Component"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "Transforme um svg usando o link https://bit.ly/SVG-RN-6 e cole apenas o que está depois do return nesse campo.",
+                "en": "Transform a svg in https://bit.ly/SVG-RN-6 adn paste the return here."
+              }
+            }
+          },
+          "ccc_svgIcon-1": {
+            "capsIptCodeID": "ccc_svgIcon-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "<svg></svg>",
+              "capsIptTxtLabel": {
+                "pt-br": "Svg Original",
+                "en": "Svg Original"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "Armazene aqui o código svg original.",
+                "en": "Enter the original code"
+              }
+            }
+          },
+          "ccc_svgIcon-2": {
+            "capsIptCodeID": "ccc_svgIcon-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "30px",
+              "capsIptTxtLabel": {
+                "pt-br": "Altura",
+                "en": "Height"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "Define uma altura para o svg",
+                "en": "Define svg height"
+              }
+            }
+          },
+          "ccc_svgIcon-3": {
+            "capsIptCodeID": "ccc_svgIcon-3",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "30px",
+              "capsIptTxtLabel": {
+                "pt-br": "Largura",
+                "en": "Width"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "Define uma largura para o svg",
+                "en": "Define svg width"
+              }
+            }
+          },
+          "ccc_svgIcon-4": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_svgIcon-4",
+            "capsIptPosition": "4",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Cor de Preenchimento",
+                "en": "Fill"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": "'black'"
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "ccc_scrollBar": {
+    "capsCodeInfo": {
+      "1": {
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 761000000
+        },
+        "capsCodeVersionID": "1",
+        "capsLabel": {
+          "pt-br": "ScrollBar",
+          "en": "ScrollBar"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["Elemento de Tela", "ScrollBar"],
+        "capsCodeText": "(...args:any) => <Elements.ScrollBar pass={{\n            styles: [!#!styles!#!],\n            arrProps: [!#!props!#!],\n            arrItems: [!#!children!#!],\n            args,\n        }}/>",
+        "capsCodeInputs": {
+          "ccc_scrollBar-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_scrollBar-0",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Estilos",
+                "en": "Styles"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": ""
+            }
+          },
+          "ccc_scrollBar-1": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "ccc_scrollBar-1",
+            "capsIptPosition": "1",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "Propriedades",
+                "en": "Properties"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": ""
+            }
+          },
+          "ccc_scrollBar-2": {
+            "capsIptPosition": "2",
+            "capsIptCodeID": "ccc_scrollBar-2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "children",
+                "en": "children"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsTypesToAdd": ["Elemento de Tela"],
+              "capsIptCapsDfCode": "() => <></>"
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "ccc_scrollBar",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsCreatedAt": {
+        "seconds": 1669821908,
+        "nanoseconds": 761000000
+      }
     }
   },
 
@@ -823,21 +1121,20 @@
             }
           },
           "ccc_loader-1": {
-            "capsIptPosition": "1",
-            "capsIptCodeID": "ccc_loader-1",
+            "capsIptType": "text",
             "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
+            "capsIptCodeID": "ccc_loader-1",
+            "capsIptPosition": "1",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
                 "pt-br": "cor",
                 "en": "color"
               },
-              "capsIptCapsDescription": {
+              "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptCapsTypesToAdd": ["string process"],
-              "capsIptCapsDfCode": "' '"
+              "capsIptTxtDfValue": "black"
             }
           }
         }
@@ -852,112 +1149,6 @@
         "seconds": 1669821908,
         "nanoseconds": 761000000
       }
-    }
-  },
-
-  "ccc_textInputEdit_C": {
-    "capsCodeInfo": {
-      "1": {
-        "capsLabel": {
-          "pt-br": "Campo",
-          "en": "TextInput"
-        },
-        "capsDescription": {
-          "pt-br": "",
-          "en": ""
-        },
-        "capsCodeTypes": ["Elemento de Tela", "TextInput Edit"],
-        "capsCodeText": "(...args:any) => <Elements.IptTxtEdit pass={{\n          propsArray: [!#!Properties!#!],\n\n          stylesArray: [!#!Styles!#!],\n\n          path: [!#!Edit Path!#!],\n\n          funcsArray: [!#!Functions!#!],\n\n          args,\n        }}/>",
-        "capsCodeInputs": {
-          "ccc_textInputEdit_C-0": {
-            "capsIptCodeID": "ccc_textInputEdit_C-0",
-            "capsIptPosition": "0",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Propriedades",
-                "en": "Properties"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsDfCode": "{}",
-              "capsIptCapsTypesToAdd": ["string process"]
-            }
-          },
-          "ccc_textInputEdit_C-1": {
-            "capsIptCodeID": "ccc_textInputEdit_C-1",
-            "capsIptPosition": "1",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Estilos",
-                "en": "Styles"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsDfCode": "{\n                color: 'black',\n                fontSize: 14,\n                // fontSize: '20px',<= #ATTENTION: Native ERROR! No string!\n              }",
-              "capsIptCapsTypesToAdd": ["string process"]
-            }
-          },
-          "ccc_textInputEdit_C-2": {
-            "capsIptCodeID": "ccc_textInputEdit_C-2",
-            "capsIptPosition": "2",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Path",
-                "en": "Path"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsDfCode": "\" \"",
-              "capsIptCapsTypesToAdd": ["string process"]
-            }
-          },
-          "ccc_textInputEdit_C-3": {
-            "capsIptCodeID": "ccc_textInputEdit_C-3",
-            "capsIptPosition": "3",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Funções (onChangeText)",
-                "en": "Functions (onChangeText)"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsDfCode": "() => {}",
-              "capsIptCapsTypesToAdd": ["setVar", "setTimeout"]
-            }
-          }
-        },
-        "capsCodeVersionID": "1",
-        "capsVersionCreatedAt": {
-          "seconds": 1669821908,
-          "nanoseconds": 764000000
-        }
-      }
-    },
-    "capsType": "code",
-    "capsDB": {
-      "capsID": "ccc_textInputEdit_C",
-      "capsPrjID": "yyy1",
-      "capsCreatedAt": {
-        "seconds": 1669821908,
-        "nanoseconds": 764000000
-      },
-      "capsUserID": "xxx1"
     }
   },
 
@@ -1098,7 +1289,7 @@
     }
   },
 
-  "ccc_funcGroup": {
+  "ccc_functionEvent": {
     "capsCodeInfo": {
       "1": {
         "capsLabel": {
@@ -1117,8 +1308,8 @@
           "en": ""
         },
         "capsCodeInputs": {
-          "ccc_funcGroup-0": {
-            "capsIptCodeID": "ccc_funcGroup-0",
+          "ccc_functionEvent-0": {
+            "capsIptCodeID": "ccc_functionEvent-0",
             "capsIptPosition": "0",
             "capsIptRemoved": false,
             "capsIptType": "capsules",
@@ -1135,9 +1326,9 @@
               "capsIptCapsTypesToAdd": ["function"]
             }
           },
-          "ccc_funcGroup-1": {
+          "ccc_functionEvent-1": {
             "capsIptRemoved": false,
-            "capsIptCodeID": "ccc_funcGroup-1",
+            "capsIptCodeID": "ccc_functionEvent-1",
             "capsIptType": "text",
             "capsIptTxtInfo": {
               "capsIptTxtDescription": {
@@ -1156,7 +1347,7 @@
       }
     },
     "capsDB": {
-      "capsID": "ccc_funcGroup",
+      "capsID": "ccc_functionEvent",
       "capsUserID": "xxx1",
       "capsCreatedAt": {
         "seconds": 1669821908,
@@ -2251,213 +2442,6 @@
         "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 }
       }
     }
-  },
-
-  "ccc_svgIcon": {
-    "capsType": "code",
-    "capsDB": {
-      "capsCreatedAt": {
-        "seconds": 1669821908,
-        "nanoseconds": 763000000
-      },
-      "capsID": "ccc_svgIcon",
-      "capsUserID": "usrn5e3jr2CvvnDpHigA",
-      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
-    },
-    "capsCodeInfo": {
-      "1": {
-        "capsVersionCreatedAt": {
-          "seconds": 1669821908,
-          "nanoseconds": 763000000
-        },
-        "capsCodeVersionID": "1",
-        "capsLabel": {
-          "pt-br": "Ícone",
-          "en": "Icon"
-        },
-        "capsDescription": {
-          "pt-br": "Use um SVG como ícone",
-          "en": "Use a SVG as an Icon"
-        },
-        "capsCodeTypes": ["Elemento de Tela", "SVG Icon"],
-        "capsCodeText": "(...args:any) => <Elements.SvgView1 pass={{\n      componentSvg: (Svg:any, SvgObj:any) => {\n        const { Defs, Stop, Path, LinearGradient, G, Circle, Rect, Mask } = SvgObj;\n        return (props:any) => (!#!1!#!)\n      },\n\n      svgOriginal: `\n        !#!2!#!\n      `,\n\n      altura: \"!#!3!#!\",\n\n      largura: \"!#!4!#!\",\n\n      preenchimento: [!#!5!#!],\n\n      args,\n    }}/>",
-        "capsCodeInputs": {
-          "ccc_svgIcon-0": {
-            "capsIptCodeID": "ccc_svgIcon-0",
-            "capsIptPosition": "0",
-            "capsIptRemoved": false,
-            "capsIptType": "text",
-            "capsIptTxtInfo": {
-              "capsIptTxtDfValue": "<Svg\n              xmlns=\"http://www.w3.org/2000/svg\"\n              width={20}\n              height={14}\n              viewBox=\"0 0 20 14\"\n              {...props}\n              >\n              <Path\n              fillRule=\"evenodd\"\n              d=\"M7.707.293a1 1 0 0 1 0 1.414L3.414 6H19a1 1 0 1 1 0 2H3.414l4.293 4.293a1 1 0 1 1-1.414 1.414l-6-6a1 1 0 0 1 0-1.414l6-6a1 1 0 0 1 1.414 0Z\"\n              clipRule=\"evenodd\"\n              {...props}\n              />\n              </Svg>",
-              "capsIptTxtLabel": {
-                "pt-br": "Svg como Componente",
-                "en": "Svg as Component"
-              },
-              "capsIptTxtDescription": {
-                "pt-br": "Transforme um svg usando o link https://bit.ly/SVG-RN-6 e cole apenas o que está depois do return nesse campo.",
-                "en": "Transform a svg in https://bit.ly/SVG-RN-6 adn paste the return here."
-              }
-            }
-          },
-          "ccc_svgIcon-1": {
-            "capsIptCodeID": "ccc_svgIcon-1",
-            "capsIptPosition": "1",
-            "capsIptRemoved": false,
-            "capsIptType": "text",
-            "capsIptTxtInfo": {
-              "capsIptTxtDfValue": "<svg></svg>",
-              "capsIptTxtLabel": {
-                "pt-br": "Svg Original",
-                "en": "Svg Original"
-              },
-              "capsIptTxtDescription": {
-                "pt-br": "Armazene aqui o código svg original.",
-                "en": "Enter the original code"
-              }
-            }
-          },
-          "ccc_svgIcon-2": {
-            "capsIptCodeID": "ccc_svgIcon-2",
-            "capsIptPosition": "2",
-            "capsIptRemoved": false,
-            "capsIptType": "text",
-            "capsIptTxtInfo": {
-              "capsIptTxtDfValue": "30px",
-              "capsIptTxtLabel": {
-                "pt-br": "Altura",
-                "en": "Height"
-              },
-              "capsIptTxtDescription": {
-                "pt-br": "Define uma altura para o svg",
-                "en": "Define svg height"
-              }
-            }
-          },
-          "ccc_svgIcon-3": {
-            "capsIptCodeID": "ccc_svgIcon-3",
-            "capsIptPosition": "3",
-            "capsIptRemoved": false,
-            "capsIptType": "text",
-            "capsIptTxtInfo": {
-              "capsIptTxtDfValue": "30px",
-              "capsIptTxtLabel": {
-                "pt-br": "Largura",
-                "en": "Width"
-              },
-              "capsIptTxtDescription": {
-                "pt-br": "Define uma largura para o svg",
-                "en": "Define svg width"
-              }
-            }
-          },
-          "ccc_svgIcon-4": {
-            "capsIptCodeID": "ccc_svgIcon-4",
-            "capsIptPosition": "4",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Cor de Preenchimento",
-                "en": "Fill"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsDfCode": "'black'",
-              "capsIptCapsTypesToAdd": ["string process"]
-            }
-          }
-        }
-      }
-    }
-  },
-
-  "ccc_scrollBar": {
-    "capsCodeInfo": {
-      "1": {
-        "capsVersionCreatedAt": {
-          "seconds": 1669821908,
-          "nanoseconds": 761000000
-        },
-        "capsCodeVersionID": "1",
-        "capsLabel": {
-          "pt-br": "ScrollBar",
-          "en": "ScrollBar"
-        },
-        "capsDescription": {
-          "pt-br": "",
-          "en": ""
-        },
-        "capsCodeTypes": ["Elemento de Tela", "ScrollBar"],
-        "capsCodeText": "(...args:any) => <Elements.ScrollBar pass={{\n            styles: [!#!styles!#!],\n            arrProps: [!#!props!#!],\n            arrItems: [!#!children!#!],\n            args,\n        }}/>",
-        "capsCodeInputs": {
-          "ccc_scrollBar-0": {
-            "capsIptPosition": "0",
-            "capsIptCodeID": "ccc_scrollBar-0",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "styles",
-                "en": "styles"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsTypesToAdd": ["string process"],
-              "capsIptCapsDfCode": ""
-            }
-          },
-          "ccc_scrollBar-1": {
-            "capsIptPosition": "1",
-            "capsIptCodeID": "ccc_scrollBar-1",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "props",
-                "en": "props"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsTypesToAdd": ["string process"],
-              "capsIptCapsDfCode": ""
-            }
-          },
-          "ccc_scrollBar-2": {
-            "capsIptPosition": "2",
-            "capsIptCodeID": "ccc_scrollBar-2",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "children",
-                "en": "children"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsTypesToAdd": ["Elemento de Tela"],
-              "capsIptCapsDfCode": "() => <></>"
-            }
-          }
-        }
-      }
-    },
-    "capsType": "code",
-    "capsDB": {
-      "capsID": "ccc_scrollBar",
-      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
-      "capsUserID": "usrn5e3jr2CvvnDpHigA",
-      "capsCreatedAt": {
-        "seconds": 1669821908,
-        "nanoseconds": 761000000
-      }
-    }
   }
 }
+
