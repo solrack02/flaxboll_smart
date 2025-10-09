@@ -24,44 +24,7 @@
           let args: any = [];
 
           const screens = [
-            
-
-        (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"home",
-
-          styles:[
-              {
-                backgroundColor: '#101',
-                justifyContent: 'center',
-                alignItems: 'center',
-                height: '100%',
-                width: '100%',
-              }
-              ],
-
-          screenElements:[
-
-          (...args:any) => <Elements.DynView pass={{
-            elementsProperties:[],
-
-            styles:[
-{
-	backgroundColor: 'white',
-	justifyContent: 'center',
-	minHeight: 40,
-	width: "100%",
-}],
-
-            functions:[()=>{}],            childrenItems:[() =><></>],
-
-            args,
-          }}/>
-        ],
-
-          functions:[()=>{}],
-
-          args,
-        }}/>
+            []
           ];
 
           const initCt = () => (
