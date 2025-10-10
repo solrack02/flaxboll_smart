@@ -558,8 +558,8 @@
             "capsIptPosition": "2",
             "capsIptTxtInfo": {
               "capsIptTxtLabel": {
-                "pt-br": "valor string",
-                "en": "string value"
+                "pt-br": "URL",
+                "en": "URL"
               },
               "capsIptTxtDescription": {
                 "pt-br": "Caminho da Imagem",
