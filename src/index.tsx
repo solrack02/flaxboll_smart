@@ -19,12 +19,65 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = 'home';
+          const currRoute = 'a0-tela-azul-clara';
 
           let args: any = [];
 
           const screens = [
-            []
+            
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:"'a0-tela-azul-clara'",
+
+          styles:[{ backgroundColor: 'lightblue', flex: 1 }],
+
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'red', fontSize: 40 }
+          ],
+
+          children: [
+            'Carlos Alberto'
+          ],
+
+          args,
+
+        }}/>, 
+        
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{ width: 240, height: 150 }],
+
+      URIvariablePath:['https://images.pexels.com/photos/31226684/pexels-photo-31226684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'],
+
+      args,
+    }}/>, (...args:any) => <Elements.IptTxtEdit pass={{
+          propsArray: [{}],
+
+          stylesArray: [{
+color: 'black',
+fontSize: 14,
+
+}],
+
+          path: [],
+
+          funcsArray: [() => {}],
+
+          args,
+        }}/>],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>
           ];
 
           const initCt = () => (
