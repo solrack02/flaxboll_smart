@@ -27,7 +27,7 @@
             
 
         (...args: any) => <Elements.Screen3 pass={{
-          pathScreen:"'a0-tela-azul-clara'",
+          pathScreen:"a0-tela-azul-clara",
 
           styles:[{ backgroundColor: 'lightblue', flex: 1 }],
 
