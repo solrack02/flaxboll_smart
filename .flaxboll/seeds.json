@@ -309,7 +309,7 @@
           "en": "Creates a new Screen"
         },
         "capsCodeTypes": ["Tela"],
-        "capsCodeText": "\n\n        (...args: any) => <Elements.Screen3 pass={{\n          pathScreen:\"!#!0!#!\",\n\n          styles:[!#!1!#!],\n\n          screenElements:[!#!2!#!],\n\n          functions:[!#!3!#!],\n\n          args,\n        }}/>",
+        "capsCodeText": "\n\n        (...args: any) => <Elements.Screen3 pass={{\n          pathScreen:!#!0!#!,\n\n          styles:[!#!1!#!],\n\n          screenElements:[!#!2!#!],\n\n          functions:[!#!3!#!],\n\n          args,\n        }}/>",
         "capsCodeInputs": {
           "ccc_screen-0": {
             "capsIptCodeID": "ccc_screen-0",
