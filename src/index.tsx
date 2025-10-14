@@ -19,7 +19,7 @@
           import { tools } from './tools';
 
           // ---------- set Caps Inputs
-          const currRoute = ''a0-tela-azul'';
+          const currRoute = ''a0-tela-azul1'';
 
           let args: any = [];
 
