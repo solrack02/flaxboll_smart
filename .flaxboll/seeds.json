@@ -856,7 +856,7 @@
                 "en": ""
               },
               "capsIptCapsDfCode": "() => {}",
-              "capsIptCapsTypesToAdd": ["setVar", "setTimeout"]
+              "capsIptCapsTypesToAdd": ["setVar", "setTimeout", "customs"]
             }
           }
         },
@@ -2379,7 +2379,7 @@
           "en": "Custom Capsule"
         },
         "capsDescription": { "pt-br": "", "en": "" },
-        "capsCodeTypes": ["function"],
+        "capsCodeTypes": ["function", "customs"],
         "capsCodeText": "!#!custom capsule!#!",
         "capsCodeVersionID": "1",
         "capsCodeInputs": {
