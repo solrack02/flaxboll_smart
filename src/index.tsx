@@ -109,7 +109,16 @@ fontSize: 14,
             {}
           ],
 
-          pData: [{name: "Juliana", img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"}, {name: "Carlos", img: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg"}],
+          pData: [
+  {
+    name: 'Juliana',
+    img: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg',
+  },
+  {
+    name: 'Carlos',
+    img: 'https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg',
+  },
+],
 
           itemElements: [
             
