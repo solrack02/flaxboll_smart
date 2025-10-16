@@ -1,1 +1,1 @@
-{"1760643123826":{"actionType":"saveAll","createdAt":"1760643123826","actionID":"1760643123826","userID":"#TEMP","path":"system.capsules.d30fe40f-6f90-41b9-bc7e-78e4868b6b9a.capsUseCodeInfo.capsUseInputs.ccc_text-2.capsIptTxtValue","oldValue":"\"#arg_name\"","newValue":"\"#args_name\""}}
+{"1760643141663":{"actionType":"saveAll","createdAt":"1760643141663","actionID":"1760643141663","userID":"#TEMP","path":"system.capsules.d30fe40f-6f90-41b9-bc7e-78e4868b6b9a.capsUseCodeInfo.capsUseInputs.ccc_text-2.capsIptTxtValue","oldValue":"\"$args_name\"","newValue":"\"$arg_name\""}}
