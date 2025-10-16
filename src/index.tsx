@@ -24,7 +24,91 @@
           let args: any = [];
 
           const screens = [
-            []
+            
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:'a0-tela-azul-clara',
+
+          styles:[{ backgroundColor: 'lightgreen', flex: 1, padding: 20, alignItems: 'center', justifyContent: 'flex-start' }],
+
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'lightcoral', fontSize: 40 }
+          ],
+
+          children: [
+            'Navbar'
+          ],
+
+          args,
+
+        }}/>, 
+        
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{ width: 240, height: 150 }],
+
+      URIvariablePath:['https://images.pexels.com/photos/20775629/pexels-photo-20775629.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'],
+
+      args,
+    }}/>, 
+        (...args:any) => <Elements.IptTxtEdit pass={{
+          propsArray: [{}],
+
+          stylesArray: [{
+color: 'black',
+fontSize: 14,
+
+}],
+
+          path: ['sc.A0.forms.iptsChanges.nome'],
+
+          funcsArray: [(txt) => { tools.setData({ path: 'sc.A0.forms.iptsChanges.nome', value: txt }); console.log({txt}); }],
+
+          args,
+        }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[{ paddingVertical: 12, paddingHorizontal: 16, borderRadius: 8, alignItems: 'center', justifyContent: 'center', backgroundColor: '#006400' }],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>{}]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { fontSize: 16, fontWeight: '600', color: '#fff' }
+          ],
+
+          children: [
+            'Salvar'
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>
           ];
 
           const initCt = () => (
