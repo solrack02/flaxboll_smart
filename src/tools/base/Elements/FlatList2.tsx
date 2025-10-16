@@ -10,7 +10,7 @@ import { useData } from '../../..';
 
 type Tprops = {
   pass: {
-    elementProperties: any;
+    elementProperties: any[];
     pData: any;
     itemElements: any;
     styles: any;
@@ -21,12 +21,20 @@ type Tprops = {
 // FlatList2 - ccc_flatList (newBase)
 export const FlatList2 = (props: Tprops) => {
   // ------- set Caps Inputs
-  const { elementProperties, pData, itemElements, styles, args } = props.pass;
+  const { elementProperties = [], pData, itemElements, styles } = props.pass;
 
-  // ---------- set Data Listener
+  // ---------- get store slice (sempre chama o hook, mas só usa se pData for string)
+  const dataFromStore = useData(ct => {
+    if (typeof pData === 'string') return pathSel(ct, pData);
+    // Retorna algo estável/leve quando NÃO for string (não será usado)
+    return undefined;
+  });
 
-  let watchData = '';
-  if (typeof pData === 'string') watchData = useData(ct => pathSel(ct, pData));
+  // ---------- set Data (sem passar pelo useData quando não for string)
+  const watchDataRaw = typeof pData === 'string' ? dataFromStore : pData;
+
+  // Garante que a FlatList receba sempre um array
+  const watchData = Array.isArray(watchDataRaw) ? watchDataRaw : [];
 
   // ---------- set List Item
   const renderItem = ({ item, index }: any) => (
@@ -34,21 +42,15 @@ export const FlatList2 = (props: Tprops) => {
   );
 
   // ------- set User Element Properties (If Exists)
-  const userElProps: any = {};
-  for (let strObj of elementProperties) {
-    if (!strObj) continue;
-    if (!props) continue;
-    if (typeof strObj !== 'string') continue;
+  const userElProps: Record<string, any> = {};
+  for (const strObj of elementProperties) {
+    if (!strObj || typeof strObj !== 'string') continue;
 
     const parsedObject = JSON5.parse(strObj);
-
     for (const keyProp in parsedObject) {
       const valueProp = parsedObject[keyProp];
-
       const [hasVar, varValue] = getVarValue(valueProp);
-
-      if (hasVar) userElProps[keyProp] = varValue;
-      if (!hasVar) userElProps[keyProp] = valueProp;
+      userElProps[keyProp] = hasVar ? varValue : valueProp;
     }
   }
 
@@ -59,7 +61,6 @@ export const FlatList2 = (props: Tprops) => {
     style: stl,
     data: watchData,
     renderItem,
-
     ...userElProps,
   };
 
