@@ -74,6 +74,7 @@ fontSize: 14,
 
           args,
         }}/>, 
+        
 
           (...args:any) => <Elements.DynView pass={{
             elementsProperties:[{}],
@@ -103,7 +104,34 @@ fontSize: 14,
 
             args,
           }}/>
-        ],
+        , (...args:any) => <Elements.FlatList2 pass={{
+          elementProperties: [
+            {}
+          ],
+
+          pData: 'all.lists.lt1',
+
+          itemElements: [
+            
+              (...args) => {
+                return (
+                  <RN.Text>
+                    Adicione os campos que quer mostrar aqui.
+                  </RN.Text>
+                );
+              }
+              
+          ],
+
+      styles:[
+{
+backgroundColor: 'white',
+justifyContent: 'center',
+minHeight: 22,
+                width: "100%",
+}
+],    args,
+        }}/>],
 
           functions:[()=>{}],
 
