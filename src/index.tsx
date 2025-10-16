@@ -109,7 +109,7 @@ fontSize: 14,
             {}
           ],
 
-          pData: 'all.lists.lt1',
+          pData: [1,2,3,4,5],
 
           itemElements: [
             
