@@ -408,7 +408,7 @@
           "en": "Makes a view in the screen"
         },
         "capsCodeTypes": ["Elemento de Tela", "DynView"],
-        "capsCodeText": "\n\n          (...args:any) => <Elements.DynView pass={{\n            elementsProperties:[!#!0!#!],\n\n            styles:[!#!1!#!],\n\n            functions:[!#!2!#!],            childrenItems:[!#!3!#!],\n\n            args,\n          }}/>\n        ",
+        "capsCodeText": "\n\n (...args:any) => <Elements.DynView pass={{\n    elementsProperties:[!#!0!#!],\n\n   styles:[!#!1!#!],\n\n   childrenItems:[!#!2!#!],  functions:[!#!3!#!],\n\n  args,\n }}/>\n ",
         "capsCodeInputs": {
           "ccc_dynView-0": {
             "capsIptType": "text",
@@ -447,27 +447,8 @@
           },
 
           "ccc_dynView-2": {
-            "capsIptCodeID": "ccc_dynView-2",
             "capsIptPosition": "2",
-            "capsIptRemoved": false,
-            "capsIptType": "capsules",
-            "capsIptCapsInfo": {
-              "capsIptCapsLabel": {
-                "pt-br": "Funções",
-                "en": "Functions"
-              },
-              "capsIptCapsDescription": {
-                "pt-br": "",
-                "en": ""
-              },
-              "capsIptCapsDfCode": "()=>{}",
-              "capsIptCapsTypesToAdd": ["trigger"]
-            }
-          },
-
-          "ccc_dynView-3": {
-            "capsIptPosition": "3",
-            "capsIptCodeID": "ccc_dynView-3",
+            "capsIptCodeID": "ccc_dynView-2",
             "capsIptCapsInfo": {
               "capsIptCapsDescription": {
                 "pt-br": "",
@@ -482,6 +463,25 @@
             },
             "capsIptType": "capsules",
             "capsIptRemoved": false
+          },
+
+          "ccc_dynView-3": {
+            "capsIptCodeID": "ccc_dynView-3",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Funções",
+                "en": "Functions"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["trigger"]
+            }
           }
         },
         "capsCodeVersionID": "1",
@@ -685,7 +685,7 @@
           "en": "A performant interface for rendering basic, flat lists"
         },
         "capsCodeTypes": ["Elemento de Tela", "FlatList"],
-        "capsCodeText": "(...args:any) => <Elements.FlatList2 pass={{\n          elementProperties: [\n            !#!Element Properties!#!\n          ],\n\n          pData: !#!Path Data!#!,\n\n          itemElements: [\n            !#!Item Elements!#!\n          ],\n\n      styles:[!#!3!#!],    args,\n        }}/>",
+        "capsCodeText": "(...args:any) => <Elements.FlatList2 pass={{\n elementProperties: [\n !#!0!#!\n],\n\n  styles: [!#!1!#!],\n\n itemElements: [\n !#!2!#!\n ],\n\n pData: !#!3!#!, args,\n }}/>",
         "capsCodeInputs": {
           "ccc_flatList-0": {
             "capsIptType": "text",
@@ -704,26 +704,28 @@
               "capsIptTxtDfValue": "{}"
             }
           },
+
           "ccc_flatList-1": {
             "capsIptType": "text",
             "capsIptRemoved": false,
             "capsIptCodeID": "ccc_flatList-1",
-            "capsIptPosition": "2",
+            "capsIptPosition": "1",
             "capsIptTxtInfo": {
               "capsIptTxtLabel": {
-                "pt-br": "Dados",
-                "en": "Data"
+                "pt-br": "Estilos",
+                "en": "Styles"
               },
               "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptTxtDfValue": "'all.lists.lt1'"
+              "capsIptTxtDfValue": "\n{\nbackgroundColor: 'white',\njustifyContent: 'center',\nminHeight: 22,\n                width: \"100%\",\n}\n"
             }
           },
+
           "ccc_flatList-2": {
             "capsIptCodeID": "ccc_flatList-2",
-            "capsIptPosition": "3",
+            "capsIptPosition": "2",
             "capsIptRemoved": false,
             "capsIptType": "capsules",
             "capsIptCapsInfo": {
@@ -743,17 +745,17 @@
             "capsIptType": "text",
             "capsIptRemoved": false,
             "capsIptCodeID": "ccc_flatList-3",
-            "capsIptPosition": "1",
+            "capsIptPosition": "3",
             "capsIptTxtInfo": {
               "capsIptTxtLabel": {
-                "pt-br": "Estilos",
-                "en": "Styles"
+                "pt-br": "Dados",
+                "en": "Data"
               },
               "capsIptTxtDescription": {
                 "pt-br": "",
                 "en": ""
               },
-              "capsIptTxtDfValue": "\n{\nbackgroundColor: 'white',\njustifyContent: 'center',\nminHeight: 22,\n                width: \"100%\",\n}\n"
+              "capsIptTxtDfValue": "'all.lists.lt1'"
             }
           }
         },
@@ -1015,7 +1017,7 @@
           "en": ""
         },
         "capsCodeTypes": ["Elemento de Tela", "ScrollBar"],
-        "capsCodeText": "(...args:any) => <Elements.ScrollBar pass={{\n            styles: [!#!styles!#!],\n            arrProps: [!#!props!#!],\n            arrItems: [!#!children!#!],\n            args,\n        }}/>",
+        "capsCodeText": "(...args:any) => <Elements.ScrollBar pass={{\n arrProps: [!#!0!#!],\n styles: [!#!1!#!],\n arrItems: [!#!2!#!],\n  args,\n }}/>",
         "capsCodeInputs": {
           "ccc_scrollBar-0": {
             "capsIptType": "text",
@@ -1024,8 +1026,8 @@
             "capsIptPosition": "0",
             "capsIptTxtInfo": {
               "capsIptTxtLabel": {
-                "pt-br": "Estilos",
-                "en": "Styles"
+                "pt-br": "Propriedades",
+                "en": "Properties"
               },
               "capsIptTxtDescription": {
                 "pt-br": "",
@@ -1041,8 +1043,8 @@
             "capsIptPosition": "1",
             "capsIptTxtInfo": {
               "capsIptTxtLabel": {
-                "pt-br": "Propriedades",
-                "en": "Properties"
+                "pt-br": "Estilos",
+                "en": "Styles"
               },
               "capsIptTxtDescription": {
                 "pt-br": "",
@@ -1051,6 +1053,7 @@
               "capsIptTxtDfValue": ""
             }
           },
+
           "ccc_scrollBar-2": {
             "capsIptPosition": "2",
             "capsIptCodeID": "ccc_scrollBar-2",
@@ -2444,4 +2447,3 @@
     }
   }
 }
-
