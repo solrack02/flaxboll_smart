@@ -24,7 +24,118 @@
           let args: any = [];
 
           const screens = [
-            []
+            
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:'a0-tela-azul-clara',
+
+          styles:[{ flex: 1, backgroundColor: 'white' }],
+
+          screenElements:[
+
+ (...args:any) => <Elements.DynView pass={{
+    elementsProperties:[{}],
+
+   styles:[{ height: 56, paddingHorizontal: 12, backgroundColor: 'blue', flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between' }],
+
+   childrenItems:[() =><></>],  functions:[
+ 
+
+ (...args:any) => <Elements.DynView pass={{
+    elementsProperties:[{}],
+
+   styles:[{ width: 56, alignItems: 'center', justifyContent: 'center' }],
+
+   childrenItems:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>{}]
+ , trigger: 'on press'
+}})],  functions:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            "Escreva..."
+          ],
+
+          args,
+
+        }}/>],
+
+  args,
+ }}/>
+ , 
+ 
+
+ (...args:any) => <Elements.DynView pass={{
+    elementsProperties:[{}],
+
+   styles:[{ flex: 1, alignItems: 'center', justifyContent: 'center' }],
+
+   childrenItems:[() =><></>],  functions:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { fontSize: 18, fontWeight: '600', color: '#fff' }
+          ],
+
+          children: [
+            Tela Inicial
+          ],
+
+          args,
+
+        }}/>],
+
+  args,
+ }}/>
+ , 
+
+ (...args:any) => <Elements.DynView pass={{
+    elementsProperties:[{}],
+
+   styles:[{ width: 56, alignItems: 'center', justifyContent: 'center' }],
+
+   childrenItems:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>{}]
+ , trigger: 'on press'
+}})],  functions:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'black', fontSize: 12, }
+          ],
+
+          children: [
+            "Escreva..."
+          ],
+
+          args,
+
+        }}/>],
+
+  args,
+ }}/>
+ ],
+
+  args,
+ }}/>
+ ],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>
           ];
 
           const initCt = () => (
