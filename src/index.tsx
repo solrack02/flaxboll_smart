@@ -87,7 +87,7 @@
           ],
 
           children: [
-            Tela Inicial
+            'Tela Inicial'
           ],
 
           args,
