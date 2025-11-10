@@ -24,7 +24,76 @@
           let args: any = [];
 
           const screens = [
-            []
+            
+
+        (...args: any) => <Elements.Screen3 pass={{
+          pathScreen:'a0-tela-azul-clara',
+
+          styles:[{ flex: 1, backgroundColor: 'lightgray', padding: 20, alignItems: 'center' }],
+
+          screenElements:[
+        (...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'purple', fontSize: 40, fontWeight: 'bold', textAlign: 'center' }
+          ],
+
+          children: [
+            'Welcome to Flaxboll'
+          ],
+
+          args,
+
+        }}/>, 
+        
+
+    (...args:any) => <Elements.ImageBox pass={{
+      elementsProperties:[{}],
+
+      styles:[{ width: 240, height: 150, margin: 30 }],
+
+      URIvariablePath:['https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'],
+
+      args,
+    }}/>, 
+
+          (...args:any) => <Elements.DynView pass={{
+            elementsProperties:[{}],
+
+            styles:[{ backgroundColor: 'purple', padding: 10, borderRadius: 5 }],
+
+            functions:[async (...args) =>
+ functions.funcGroup({ args, pass:{
+ arrFunctions: [()=>{}]
+ , trigger: 'on press'
+}})],            childrenItems:[(...args:any) => <Elements.Text pass={{
+          arrProps: [
+            {}
+          ],
+
+          arrStyles: [
+            { color: 'white', textAlign: 'center' }
+          ],
+
+          children: [
+            'Save'
+          ],
+
+          args,
+
+        }}/>],
+
+            args,
+          }}/>
+        ],
+
+          functions:[()=>{}],
+
+          args,
+        }}/>
           ];
 
           const initCt = () => (
